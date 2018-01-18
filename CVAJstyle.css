@@ -49,7 +49,6 @@
 		#check{
 			position:absolute;
 			width:300px;
-<<<<<<< HEAD
 			float:left;
 			left:1160px;
 			top:30px;
@@ -73,8 +72,6 @@
 			border:2px solid black;
 		}
 		.left_pic{
-=======
->>>>>>> 8a0244c13bca498818ffde7558b645cd71cb2430
 			float:left;
 			padding:5px 5px 5px 5px;
 			margin-top:10px;
@@ -131,7 +128,7 @@
 			margin-right:10px;
 			border:2px solid black;
 		}
-		.right_pic{
+		#right_pic{
 			position:absolute;
 			width:340px;
 			left:1165px;

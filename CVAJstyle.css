@@ -54,6 +54,12 @@
 			top:30px;
 			color:white;
 		}
+		#bar_cal{
+			position:absolute;
+			width:945px;
+			top:785px;
+			left:208px;
+		}
 		#right_pic{
 			position:absolute;
 			width:340px;

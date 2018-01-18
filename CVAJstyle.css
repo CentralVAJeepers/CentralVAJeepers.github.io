@@ -5,7 +5,7 @@
 			border:none;
 		}
 		body{
-			font-family:'Arial Black', Arial;
+			font-family:"Arial Black",Arial;
 			background-color:#e9ddd3;
 		}
 		ul{
@@ -46,7 +46,15 @@
 			height : 650px;
 			padding : 5px;
 		}
-		#right_pic{
+		#check{
+			position:absolute;
+			width:300px;
+			float:left;
+			left:1160px;
+			top:30px;
+			color:white;
+		}
+		.right_pic{
 			position:absolute;
 			width:340px;
 			left:1165px;
@@ -63,13 +71,14 @@
 			margin-bottom:10px;
 			border:2px solid black;
 		}
-		#check{
-			position:absolute;
-			width:300px;
+		.left_pic{
 			float:left;
-			left:1160px;
-			top:30px;
-			color:white;
+			padding:5px 5px 5px 5px;
+			margin-top:10px;
+			margin-left:10px;
+			margin-bottom:10px;
+			background:none;
+			clear:both;
 		}
 		.square_l{
 			font-size:17pt;
@@ -169,7 +178,6 @@
 		  border-top:solid black 1px;
 		  text-decoration: none;
 		}
-
 		.btn:hover {
 		  background: #db6000;
 		}	

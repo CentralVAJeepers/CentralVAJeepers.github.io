@@ -1,0 +1,159 @@
+/* Central VA Jeep Stylesheet 2.0 */
+/* improved site*/
+	*{
+		margin:0;
+		padding:0;
+		border:none;
+		list-style:none;
+	}
+	body{
+		font-family:'verdana',sans-serif;
+		background-color:#e9ddd3;
+	}
+	ul{
+		overflow:hidden;
+	}
+	.top_bar{
+		background-color:#696969;
+		height:110px;
+		min-width:1060px;
+	}
+	.txtlogo{
+		position:absolute;
+		top:15px;
+		height:75px;
+	}
+	.social_fb{
+		position:absolute;
+		left:1010px;
+		top:40px;
+		float:right;
+		width:50px;
+		margin:10px 10px 10px 10px;
+	}
+	.social_yt{
+		position:absolute;
+		left:1070px;
+		top:40px;
+		float:right;
+		width:50px;
+		margin:10px 10px 10px 10px;
+	}
+	.social_ig{
+		position:absolute;
+		left:1130px;
+		top:40px;
+		float:right;
+		width:50px;
+		margin:10px 10px 10px 10px;
+	}
+	.social_txt{
+		position:absolute;
+		left:1030px;
+		top:15px;
+		float:left;
+		width:300px;
+		font-size:18pt;
+		font-weight:bold;
+		color:white;
+	}
+	.nav_bar{
+		overflow:hidden;
+		background-color:#303030;
+		min-width:1060px;
+	}
+	.nav_bar a{
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.nav_bar a:hover{
+		background-color:orange;
+		color:#000000;
+	}
+	#active{
+		background-color:darkorange;
+		color:#000000;
+		font-weight:bold;
+	}
+	.slide{
+		float:left;
+		width:960px;
+		margin:15px 10px 10px 25px;
+	}
+	.main{
+		float:left;
+		width:900px;
+		margin:15px 10px 10px 25px;
+		padding:10px 10px 10px 25px;
+		border:2px solid #696969;
+		font-size:16pt;
+		background-color:#fdf7db;
+		min-height:549px;
+	}
+	.main li{
+		list-style-type:square;
+		display:list-item;
+		margin:0 0 10px 0;
+	}
+	.main h1{
+		text-align:center;
+	}
+	.main p{
+		text-indent:30px;
+	}
+	#forum{
+		padding:0;
+	}
+	.foot{
+		float:left;
+		clear:both;
+		width:calc(100% - 10px);
+		padding:10px 0 5px 10px;
+		margin-top:25px;
+		background-color:#303030;
+		color:#c0c0c0;
+	}
+	.right_bar{
+		position:absolute;
+		left:990px;
+		top:135px;
+		float:left;
+		width:460px;
+		padding:5px 5px 0px 5px;
+		background-color:orange;
+		margin-top:40px;
+		margin-left:20px;
+	}
+	.tread{
+		margin-top:40px;
+		margin-left:20px;
+		position:absolute;
+		left:1050px;
+		top:690px;
+		float:left;
+		padding:5px 5px 0px 5px;
+
+	}
+	.bot_pic{
+		display:inline-block;
+		margin:10px 0px 10px 25px;
+		width:1145px;
+	}
+	.bot_pic a{
+		margin-right:117px;
+	}
+/*	@media screen and (min-width:1001px) and (max-width:1500px){
+		.right_bar{
+			width:340px;
+		}
+	}*/
+	@media screen and (max-width:1200px){
+		.social_ig,.social_yt,.social_fb,.social_txt,.right_bar,.tread{
+			display:none;
+		}
+		
+	}

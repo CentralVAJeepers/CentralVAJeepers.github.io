@@ -147,6 +147,9 @@
 	.bot_pic a{
 		margin-right:17px;
 	}
+	.hidden{
+		display:none;
+	}
 /*	@media screen and (min-width:1001px) and (max-width:1500px){
 		.right_bar{
 			width:340px;
